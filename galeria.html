@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<!--------------------->
+		<title>Ostoja</title>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />	
+		<meta charset="UTF-8">
+
+		<!--------------------->
+		<!--Czcionka-->
+		<link href='https://fonts.googleapis.com/css?family=Lato:400,300,700&subset=latin-ext,latin' rel='stylesheet' type='text/css'>
+		<!--JQuery-->
+		<script src="js/jquery.js"></script>
+		
+		<!--Bootstrap-->
+		<link href="bootstrap/css/bootstrap.css" rel="stylesheet">
+		<script src="bootstrap/js/bootstrap.min.js"></script>
+		
+		<!--BXSlider-->
+		<script src="bxslider/jquery.bxslider.min.js"></script>
+		<link href="bxslider/jquery.bxslider.css" rel="stylesheet" />
+		
+		<!--Skrollr-->
+		<script type="text/javascript" src="js/skrollr.js"></script>
+		
+		
+		<!--CSS/JS-->
+		<link rel="stylesheet" type="text/css" href="main.css">
+		<script type="text/javascript" src="js/main.js"></script>
+
+		<!--colorbox-->
+		<link rel="stylesheet" type="text/css" href="colorbox/colorbox.css">
+		<script src="colorbox/jquery.colorbox.js"></script>
+
+		<!--------------------->
+		<script type="text/javascript">
+            jQuery(window).load(function(){ 
+                skrollr.init({ forceHeight: false }); 
+            });
+        </script>
+		
+	</head>
+	<BODY>
+		<SECTION id="page_wrapper">
+			<header>
+				<section class="container">
+					<div class="row">
+						<div class="hidden-xs col-sm-5">
+							<ul class="main-menu-l main-menu">
+								<li class="active"><a href="#">Pensjonat</a></li>
+								<li class="nextlevel"><a href="#">Oferta</a>
+									<ul class="main-menu-level-2">
+										<li><a href="#">Oferta pielęgniarska</a></li>
+										<li><a href="#">Wykwalifikowane opiekunki</a></li>
+										<li><a href="#">Wyżywienie</a></li>
+										<li><a href="#">Koncerty muzyczne</a></li>
+										<li><a href="#">Organizacja czasu wolnego</a></li>
+									</ul>
+								</li>
+								<li><a href="#">Aktualności</a></li>
+							</ul>
+						</div>
+						<div class="col-xs-3 col-sm-2 logo no-padding">
+							<div class="logo-1">
+								<div class="logo-2">
+									<img class="img-responsive" src="images/logo.png" alt="logo">
+								</div>
+							</div>
+						</div>
+						<div class="hidden-xs col-sm-5">
+							<ul class="main-menu-r main-menu">
+								<li><a href="#">Galeria</a></li>
+								<li><a href="#">Regulamin</a></li>
+								<li><a href="#">Kontakt</a></li>
+							</ul>
+						</div>
+						<div class="col-xs-9 hidden-sm hidden-md hidden-lg">
+							<ul class="main-menu main-menu-mobile">
+								<li class="active"><a href="#">Pensjonat</a></li>
+								<li class="nextlevel-mobile"><a href="#">Oferta</a>
+									<ul class="main-menu-mobile-level">
+										<li><a href="#">Oferta pielęgniarska</a></li>
+										<li><a href="#">Wykwalifikowane opiekunki</a></li>
+										<li><a href="#">Wyżywienie</a></li>
+										<li><a href="#">Koncerty muzyczne</a></li>
+										<li><a href="#">Organizacja czasu wolnego</a></li>
+									</ul>
+								</li>
+								<li><a href="#">Aktualności</a></li>
+								<li><a href="#">Galeria</a></li>
+								<li><a href="#">Regulamin</a></li>
+								<li><a href="#">Kontakt</a></li>
+							</ul>
+							<img id="mobile-menu-ico" alt="menu-mobile" src="images/menu.png">
+						</div>
+					</div>
+				</section> 
+			</header>
+			<section class="slider">
+				<div id="cloud1" class="skrollable skrollable-between" data-top="left: 1000px;" data-bottom="left: 400px;" ></div>
+				<div class="bxslider-main">
+					<!--single-->
+					<div class="obrazek">
+						<img class="obrazek-slider" src="images/przykladowe/pic12.jpg" />
+						<div class="slider-content">
+							<div class="container">
+								<div class="col-xs-12 col-md-6 slider-text slider-text-1">
+									<span>“Uczmy się kochać ludzi Tak szybko odchodzą..”</span>
+									<p>
+									to słowa które w swej głębi kryją: miłość, opiekuńczość, szacunek, przywiązanie, a także refleksje nad tym co nieubłaganie przemija. 
+									</p>
+								</div>
+								<div class="col-xs-12 col-md-6 slider-text slider-text-2">
+								</div>
+							</div>
+						</div>
+						
+					</div>
+					<!--single-->
+					<div class="obrazek">
+						<img class="obrazek-slider" src="images/przykladowe/pic12.jpg" />
+						<div class="slider-content">
+							<div class="container">
+								<div class="col-xs-12 col-md-6 slider-text slider-text-1">
+								</div>
+								<div class="col-xs-12 col-md-6 slider-text slider-text-2">
+									<span>“Uczmy się kochać ludzi Tak szybko odchodzą..”</span>
+									<p>
+									to słowa które w swej głębi kryją: miłość, opiekuńczość, szacunek, przywiązanie, a także refleksje nad tym co nieubłaganie przemija. 
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+
+				</div>
+				<div class="slider-mask"></div>
+			</section>
+			<section class="galeria1-podstrona">
+				<img class="lid" src="images/lid2.png">
+				<div class="title-section">
+					Galeria	
+				</div>
+				<div class="">
+					<!--single-->
+					<div class="col-xs-6 col-sm-4 col-md-3 obrazek">
+						<div class="obrazek-inner">
+							<a class="colorbox-1" href="images/przykladowe/pic2.jpg">
+							<img class="img-responsive transition_0_5" src="images/przykladowe/pic2.jpg" />
+							<div class="obrazek-text transition_0_5">
+								<div class="obrazek-text-1">
+									Pensjonat Ostoja<br>Pokój towarzyski
+								</div>
+							</div>
+							</a>
+						</div>
+					</div>
+					<!--single-->
+					<div class="col-xs-6 col-sm-4 col-md-3 obrazek">
+						<div class="obrazek-inner">
+							<a class="colorbox-1" href="images/przykladowe/pic2.jpg">
+							<img class="img-responsive" src="images/przykladowe/pic2.jpg" />
+							<div class="obrazek-text transition_0_5">
+								<div class="obrazek-text-1">
+									Pensjonat Ostoja<br>Pokój towarzyski
+								</div>
+							</div>
+							</a>
+						</div>
+					</div>
+					<!--single-->
+					<div class="col-xs-6 col-sm-4 col-md-3 obrazek">
+						<div class="obrazek-inner">
+							<a class="colorbox-1" href="images/przykladowe/pic2.jpg">
+							<img class="img-responsive" src="images/przykladowe/pic2.jpg" />
+							<div class="obrazek-text transition_0_5">
+								<div class="obrazek-text-1">
+									Pensjonat Ostoja<br>Pokój towarzyski
+								</div>
+							</div>
+							</a>
+						</div>
+					</div>
+					<!--single-->
+					<div class="col-xs-6 col-sm-4 col-md-3 obrazek">
+						<div class="obrazek-inner">
+							<a class="colorbox-1" href="images/przykladowe/pic2.jpg">
+							<img class="img-responsive" src="images/przykladowe/pic2.jpg" />
+							<div class="obrazek-text transition_0_5">
+								<div class="obrazek-text-1">
+									Pensjonat Ostoja<br>Pokój towarzyski
+								</div>
+							</div>
+							</a>
+						</div>
+					</div>
+					<!--single-->
+					<div class="col-xs-6 col-sm-4 col-md-3 obrazek">
+						<div class="obrazek-inner">
+							<a class="colorbox-1" href="images/przykladowe/pic2.jpg">
+							<img class="img-responsive" src="images/przykladowe/pic2.jpg" />
+							<div class="obrazek-text transition_0_5">
+								<div class="obrazek-text-1">
+									Pensjonat Ostoja<br>Pokój towarzyski
+								</div>
+							</div>
+							</a>
+						</div>
+					</div>
+					<!--single-->
+					<div class="col-xs-6 col-sm-4 col-md-3 obrazek">
+						<div class="obrazek-inner">
+							<a class="colorbox-1" href="images/przykladowe/pic2.jpg">
+							<img class="img-responsive" src="images/przykladowe/pic2.jpg" />
+							<div class="obrazek-text transition_0_5">
+								<div class="obrazek-text-1">
+									Pensjonat Ostoja<br>Pokój towarzyski
+								</div>
+							</div>
+							</a>
+						</div>
+					</div>
+					<!--single-->
+					<div class="col-xs-6 col-sm-4 col-md-3 obrazek">
+						<div class="obrazek-inner">
+							<a class="colorbox-1" href="images/przykladowe/pic2.jpg">
+							<img class="img-responsive" src="images/przykladowe/pic2.jpg" />
+							<div class="obrazek-text transition_0_5">
+								<div class="obrazek-text-1">
+									Pensjonat Ostoja<br>Pokój towarzyski
+								</div>
+							</div>
+							</a>
+						</div>
+					</div>
+					<!--single-->
+					<div class="col-xs-6 col-sm-4 col-md-3 obrazek">
+						<div class="obrazek-inner">
+							<a class="colorbox-1" href="images/przykladowe/pic2.jpg">
+							<img class="img-responsive" src="images/przykladowe/pic2.jpg" />
+							<div class="obrazek-text transition_0_5">
+								<div class="obrazek-text-1">
+									Pensjonat Ostoja<br>Pokój towarzyski
+								</div>
+							</div>
+							</a>
+						</div>
+					</div>
+					<!--single-->
+					<div class="col-xs-6 col-sm-4 col-md-3 obrazek">
+						<div class="obrazek-inner">
+							<a class="colorbox-1" href="images/przykladowe/pic2.jpg">
+							<img class="img-responsive" src="images/przykladowe/pic2.jpg" />
+							<div class="obrazek-text transition_0_5">
+								<div class="obrazek-text-1">
+									Pensjonat Ostoja<br>Pokój towarzyski
+								</div>
+							</div>
+							</a>
+						</div>
+					</div>
+					<!--single-->
+					<div class="col-xs-6 col-sm-4 col-md-3 obrazek">
+						<div class="obrazek-inner">
+							<a class="colorbox-1" href="images/przykladowe/pic2.jpg">
+							<img class="img-responsive" src="images/przykladowe/pic2.jpg" />
+							<div class="obrazek-text transition_0_5">
+								<div class="obrazek-text-1">
+									Pensjonat Ostoja<br>Pokój towarzyski
+								</div>
+							</div>
+							</a>
+						</div>
+					</div>
+					<!--single-->
+					<div class="col-xs-6 col-sm-4 col-md-3 obrazek">
+						<div class="obrazek-inner">
+							<a class="colorbox-1" href="images/przykladowe/pic2.jpg">
+							<img class="img-responsive" src="images/przykladowe/pic2.jpg" />
+							<div class="obrazek-text transition_0_5">
+								<div class="obrazek-text-1">
+									Pensjonat Ostoja<br>Pokój towarzyski
+								</div>
+							</div>
+							</a>
+						</div>
+					</div><!--single-->
+					<div class="col-xs-6 col-sm-4 col-md-3 obrazek">
+						<div class="obrazek-inner">
+							<a class="colorbox-1" href="images/przykladowe/pic2.jpg">
+							<img class="img-responsive" src="images/przykladowe/pic2.jpg" />
+							<div class="obrazek-text transition_0_5">
+								<div class="obrazek-text-1">
+									Pensjonat Ostoja<br>Pokój towarzyski
+								</div>
+							</div>
+							</a>
+						</div>
+					</div>
+					<div class="clear"></div>
+				</div>
+				<div class="container">
+					<!--paginacja-->
+					<div class="row paginacja-div">
+					
+						<ul class="paginacja">
+							<li><a href="#">1</a></li>
+							<li><a class="active" href="#">2</a></li>
+							<li><a href="#">3</a></li>
+							<li><a href="#">4</a></li>
+							<li class="dots"></li>
+							<li><a href="#">12</a></li>
+							<li class="next"><a href="#">poprzednia</a></li>
+							<li class="prev"><a href="#">następna</a></li>
+						</ul>
+					</div>
+				</div>
+			</section>
+			
+			<footer>
+				<div class="container">
+					<div class="row">
+						<div class="col-xs-6 footer-left">
+							<b>Pensjonat Ostoja 2016.</b> Wszystkie Prawa Zastrzeżone.
+						</div>
+						<div class="col-xs-6 footer-right">
+						<span class="thin">Projekt i realizacja:</span> <a href="http://laboratoriumartystyczne.pl">Laboratorium Artystyczne</a><br/>
+						<span class="thin">CMS:</span> <a href="http://blackwolfcms.pl">Black Wolf</a>
+						</div>
+					</div>
+				</div>
+			</footer>
+		</SECTION>
+	</BODY>
+</html>
